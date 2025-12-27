@@ -1,20 +1,21 @@
-# Python gereksizleri
+# Python cache & artifacts
 __pycache__/
 *.pyc
 
-# Sanal ortamlar
+# Virtual environments
 dlenv/
 venv/
 env/
 
-# Veri Seti (GitHub'a sigmaz)
+# Datasets
 dataset/
 
-# Videolar (Cok yer kaplar, yukleme)
+# Video files
 *.mp4
 
-# Model dosyalari (Eger 100MB'dan buyukse yukleme)
+# Model weights
+# Uncomment *.pth if file size is < 100MB
 # *.pth
 
-# VS Code ayarlari
+# IDE settings
 .vscode/

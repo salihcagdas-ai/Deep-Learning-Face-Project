@@ -1,0 +1,20 @@
+# Python gereksizleri
+__pycache__/
+*.pyc
+
+# Sanal ortamlar
+dlenv/
+venv/
+env/
+
+# Veri Seti (GitHub'a sigmaz)
+dataset/
+
+# Videolar (Cok yer kaplar, yukleme)
+*.mp4
+
+# Model dosyalari (Eger 100MB'dan buyukse yukleme)
+# *.pth
+
+# VS Code ayarlari
+.vscode/
